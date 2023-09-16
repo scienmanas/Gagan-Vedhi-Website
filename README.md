@@ -57,8 +57,6 @@ Inside AstroWind template, you'll see the following folders and files:
 └── ...
 ```
 
-`<br>`
-
 ### Commands
 
 All commands are run from the root of the project, from a terminal:
@@ -72,8 +70,6 @@ All commands are run from the root of the project, from a terminal:
 | `npm run format`      | Format codes with Prettier                             |
 | `npm run lint:eslint` | Run Eslint                                             |
 | `npm run astro ...`   | Run CLI commands like `astro add`, `astro preview` |
-
-<br>
 
 ### Configuration
 
