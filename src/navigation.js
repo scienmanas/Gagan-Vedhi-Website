@@ -3,181 +3,204 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Homes',
-      links: [
-        {
-          text: 'SaaS',
-          href: getPermalink('/homes/saas'),
-        },
-        {
-          text: 'Startup',
-          href: getPermalink('/homes/startup'),
-        },
-        {
-          text: 'Mobile App',
-          href: getPermalink('/homes/mobile-app'),
-        },
-        {
-          text: 'Personal',
-          href: getPermalink('/homes/personal'),
-        },
-      ],
+      text: 'Home',
+      href: getPermalink('/')
+      // links: [
+      //   {
+      //     text: 'SaaS',
+      //     href: getPermalink('/homes/saas'),
+      //   },
+      //   {
+      //     text: 'Startup',
+      //     href: getPermalink('/homes/startup'),
+      //   },
+      //   {
+      //     text: 'Mobile App',
+      //     href: getPermalink('/homes/mobile-app'),
+      //   },
+      //   {
+      //     text: 'Personal',
+      //     href: getPermalink('/homes/personal'),
+      //   },
+      // ],
     },
     {
-      text: 'Pages',
+      text: 'Events',
       links: [
         {
-          text: 'Features (Anchor Link)',
-          href: getPermalink('/#features'),
+          text: 'Coming Events'
         },
         {
-          text: 'Services',
-          href: getPermalink('/services'),
+          text : 'Onging Events'
         },
         {
-          text: 'Pricing',
-          href: getPermalink('/pricing'),
-        },
-        {
-          text: 'About us',
-          href: getPermalink('/about'),
-        },
-        {
-          text: 'Contact',
-          href: getPermalink('/contact'),
-        },
-        {
-          text: 'Terms',
-          href: getPermalink('/terms'),
-        },
-        {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
-        },
-      ],
+          text : 'Past Events'
+        }
+      ]
+      // links: [
+      //   {
+      //     text: 'Features (Anchor Link)',
+      //     href: getPermalink('/#features'),
+      //   },
+      //   {
+      //     text: 'Services',
+      //     href: getPermalink('/services'),
+      //   },
+      //   {
+      //     text: 'Pricing',
+      //     href: getPermalink('/pricing'),
+      //   },
+      //   {
+      //     text: 'About us',
+      //     href: getPermalink('/about'),
+      //   },
+      //   {
+      //     text: 'Contact',
+      //     href: getPermalink('/contact'),
+      //   },
+      //   {
+      //     text: 'Terms',
+      //     href: getPermalink('/terms'),
+      //   },
+      //   {
+      //     text: 'Privacy policy',
+      //     href: getPermalink('/privacy'),
+      //   },
+      // ],
     },
     {
-      text: 'Landing',
-      links: [
+      text: 'Projects',
+      links : [
         {
-          text: 'Lead Generation',
-          href: getPermalink('/landing/lead-generation'),
+          text : 'Ongoing Projects'
         },
         {
-          text: 'Long-form Sales',
-          href: getPermalink('/landing/sales'),
-        },
-        {
-          text: 'Click-Through',
-          href: getPermalink('/landing/click-through'),
-        },
-        {
-          text: 'Product Details (or Services)',
-          href: getPermalink('/landing/product'),
-        },
-        {
-          text: 'Coming Soon or Pre-Launch',
-          href: getPermalink('/landing/pre-launch'),
-        },
-        {
-          text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
-        },
-      ],
+          text : 'Completed Projects'
+        }
+      ]
+      // links: [
+      //   {
+      //     text: 'Lead Generation',
+      //     href: getPermalink('/landing/lead-generation'),
+      //   },
+      //   {
+      //     text: 'Long-form Sales',
+      //     href: getPermalink('/landing/sales'),
+      //   },
+      //   {
+      //     text: 'Click-Through',
+      //     href: getPermalink('/landing/click-through'),
+      //   },
+      //   {
+      //     text: 'Product Details (or Services)',
+      //     href: getPermalink('/landing/product'),
+      //   },
+      //   {
+      //     text: 'Coming Soon or Pre-Launch',
+      //     href: getPermalink('/landing/pre-launch'),
+      //   },
+      //   {
+      //     text: 'Subscription',
+      //     href: getPermalink('/landing/subscription'),
+      //   },
+      // ],
     },
     {
       text: 'Blog',
-      links: [
+      links : [
         {
-          text: 'Blog List',
-          href: getBlogPermalink(),
+          text : 'Space News'
         },
         {
-          text: 'Article',
-          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
-        },
-        {
-          text: 'Article (with MDX)',
-          href: getPermalink('markdown-elements-demo-post', 'post'),
-        },
-        {
-          text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
-        },
-        {
-          text: 'Tag Page',
-          href: getPermalink('astro', 'tag'),
-        },
-      ],
+          text : 'Tech News'
+        }
+      ]
+      // links: [
+      //   {
+      //     text: 'Blog List',
+      //     href: getBlogPermalink(),
+      //   },
+      //   {
+      //     text: 'Article',
+      //     href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
+      //   },
+      //   {
+      //     text: 'Article (with MDX)',
+      //     href: getPermalink('markdown-elements-demo-post', 'post'),
+      //   },
+      //   {
+      //     text: 'Category Page',
+      //     href: getPermalink('tutorials', 'category'),
+      //   },
+      //   {
+      //     text: 'Tag Page',
+      //     href: getPermalink('astro', 'tag'),
+      //   },
+      // ],
     },
     {
-      text: 'Widgets',
+      text: 'Achievements',
+      href: '#',
+    },
+    {
+      text: 'Our Team',
       href: '#',
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 };
 
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: 'Collaborations',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
+        { text: 'ICUAA Pune', href: 'https://www.iucaa.in/en/'},
+        { text: 'Celestic, IISER Tirupati', href: 'https://www.instagram.com/celestic_iisertpt/' },
+        { text: 'Space India', href: 'https://space-india.com/' },
+        { text: 'Idea Square', href: 'https://www.linkedin.com/company/idea-squared'},
+        { text: 'Space technology & Aeronautical Rocketry (STAR)', href: 'https://www.starlabsurat.com/' },
       ],
     },
     {
-      title: 'Platform',
+      title: 'Past Events',
       links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
-        { text: 'Electron', href: '#' },
-        { text: 'AstroWind Desktop', href: '#' },
+        { text: 'Star Gazing', href: '' },
+        { text: 'Regional Science Center Visit', href: '' },
+        { text: 'Aethereum 2022', href: '' },
+        { text: 'Gravitational Waves Workshop', href: '' },
+        { text: 'Astrophotography Workshop', href: '' },
       ],
     },
     {
-      title: 'Support',
+      title: 'Projects',
       links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Professional Services', href: '#' },
-        { text: 'Skills', href: '#' },
-        { text: 'Status', href: '#' },
+        { text: 'ISS Overhead Discord Bot', href: 'https://github.com/astroclubiitt/ISS-Overhead-Checker' },
+        { text: 'Rocket Modelling', href: '' },
       ],
     },
     {
-      title: 'Company',
+      title: 'Achievements',
       links: [
-        { text: 'About', href: '#' },
-        { text: 'Blog', href: '#' },
-        { text: 'Careers', href: '#' },
-        { text: 'Press', href: '#' },
-        { text: 'Inclusion', href: '#' },
-        { text: 'Social Impact', href: '#' },
-        { text: 'Shop', href: '#' },
-      ],
+        { text: 'Silver Medal - Cosmic Innovation Challenge', href: '' },
+        {text: 'Silver Medal, Inter IIT Tech Meet 10.0', href: '' },
+      ]
     },
   ],
-  secondaryLinks: [
-    { text: 'Terms', href: getPermalink('/terms') },
-    { text: 'Privacy Policy', href: getPermalink('/privacy') },
-  ],
+  // secondaryLinks: [
+  //   { text: 'Terms', href: getPermalink('/terms') },
+  //   { text: 'Privacy Policy', href: getPermalink('/privacy') },
+  // ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
+    { ariaLabel: 'X', icon: 'tabler:brand-x-filled', href: 'https://twitter.com/astroclubiitt' },
+    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/astroclubiitt' },
+    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook-filled', href: '#' },
+    { ariaLabel: 'Discord', icon: 'tabler:brand-discord-filled', href: 'https://discord.gg/m6uZQXJX3k' },
+    { ariaLabel: 'Github', icon: 'tabler:brand-github-filled', href: 'https://github.com/astroclubiitt' },
+    { ariaLabel: 'Linkedin', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/company/astroclubiitt' },
+    { ariaLabel: 'Mail', icon: 'tabler:mail-filled', href: 'https://mail.google.com/mail/?view=cm&fs=1&to=astronomyclub@iittp.ac.in' },
   ],
   footNote: `
-    <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"></span>
-    Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/"> onWidget</a> · All rights reserved.
+    <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm bg]">&#169; </span>
+    Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://github.com/scienmanas"> Manas</a> · Gagan Vedhi · All rights reserved.
   `,
 };
