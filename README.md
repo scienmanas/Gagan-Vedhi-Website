@@ -147,8 +147,6 @@ ui:
   theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
 ```
 
-<br>
-
 ### Deploy
 
 #### Deploy to production (manual)
