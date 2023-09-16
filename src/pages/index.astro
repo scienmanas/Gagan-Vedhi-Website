@@ -4,16 +4,23 @@ import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
-import Features2 from '~/components/widgets/Features2.astro';
-import Steps from '~/components/widgets/Steps.astro';
 import Content from '~/components/widgets/Content.astro';
-import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
-import FAQs from '~/components/widgets/FAQs.astro';
+// import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import Stats from '~/components/widgets/Stats.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
+// import CallToAction from '~/components/widgets/CallToAction.astro';
+
+import Gazing_img from '~/assets/images/Star_Gazing.png';
+import Movie_Night_img from '~/assets/images/Movie_Night.png';
+import Launch_img from '~/assets/images/Launch.png';
+import Ligo_img from '~/assets/images/Ligo.png';
+import Doc_quiz from '~/assets/images/Docquiz.png';
+import Talk_img from '~/assets/images/Talk.png';
+
+// Store images link
+
 
 const metadata = {
-  title: 'AstroWind — Free template for creating websites with Astro + Tailwind CSS',
+  title: 'Gagan Vedhi, The Astronomy & Astrophysics Club, IIT Tirupati',
   ignoreTitleTemplate: true,
 };
 ---
@@ -23,7 +30,7 @@ const metadata = {
 
   <Hero
     
-    image={{ src: '~/assets/images/hero.png', alt: 'AstroWind Hero Image' }}
+    image={{ src: '~/assets/images/hero.png', alt: 'Image' }}
   >
     <Fragment slot="title">
       Gagan <span class="text-accent dark:text-white highlight"> Vedhi</span>
@@ -110,7 +117,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      src: Gazing_img,
       alt: 'Colorful Image',
     }}
   >
@@ -130,33 +137,28 @@ const metadata = {
     isAfterContent
     items={[
       {
-        title: 'High level of customization',
-        description: `Tailor the template effortlessly to match your brand's identity and requirements, making your website distinct and saving you time.`,
+        title: 'Die hard Fan',
+        description: `Like any other college, we also love movies and webseries, but we are keen people who also wastes time og other felow mates✨`,
       },
       {
-        title: 'Multiple layout possibilities',
+        title: 'Knowledge Oriented',
         description:
-          'Explore various layout options to find the structure that best presents your content, enhancing user engagement and navigation.',
+          'Okay we sometimes very informative shows/movies which are really give knowledge of different theories og the unverse.',
       },
       {
-        title: 'Fully responsive design',
+        title: 'Searches od shows',
         description:
-          "Ensure your website's optimal performance on various devices and screen sizes, providing a consistent and enjoyable user experience.",
-      },
-      {
-        title: 'Integration of media',
-        description:
-          'Seamlessly incorporate images, videos, and multimedia elements that enhance your content and engage visitors effectively.',
+          "So why wait, join us in our weird fanties of watching astro theme movies whenever we announce next time.",
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2194&q=80',
+      src: Movie_Night_img,
       alt: 'Blueprint Image',
     }}
   >
   <Fragment slot="content">
     <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Movie Night🎥🍿</h3>
-     Every now and then we spam our dear colleges mates with mails of our sessions, Mission Passed😎.
+     We oraganize fun filled Movie nights after exams to make you all chill✨.
   </Fragment>
 
   <Fragment slot="bg">
@@ -171,110 +173,137 @@ const metadata = {
     isAfterContent
     items={[
       {
-        title: 'Enhanced user engagement',
+        title: 'Trip to SDSC Shriharikota🚀',
         description:
-          'Captivate your audience with interactive elements, intuitive navigation, and visually appealing layouts, encouraging longer visits.',
+          'Who is not trilled to witness a live launch that from our own space oraganization ISRO🙂, so yeah we oragize trip to SDSC space centre when there is a historic launch.',
       },
       {
-        title: 'Continuous improvement',
+        title: 'Visit to Regional Science Center(RSC)',
         description:
-          'Ensure your website stays aligned with the latest trends and technologies through regular updates and enhancements.',
-      },
-      {
-        title: 'Time and resource efficiency',
-        description:
-          'Skip the time-consuming process of building a website from scratch and launch your online presence sooner with AstroWind.',
-      },
-      {
-        title: 'Community support',
-        description: `Join the growing AstroWind community for insights, resources, and assistance, ensuring you're never alone on your web development journey.`,
+          'We often visit Regional Space Science Center to spend good time gazing at ISS(Interational Space station).',
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1611462985358-60d3498e0364?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Astronauts Image',
+      src: Launch_img,
+      alt: 'Blueprint Image',
     }}
   >
-    <Fragment slot="content">Designed to foster growth and success.</Fragment>
+  <Fragment slot="content">
+    <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Trips & Launches🚀</h3>
+     We have oraganized many trips for us and our fellow college mates✨.
+  </Fragment>
 
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment>
   </Content>
 
-  <!-- Features2 Widget ************** -->
+    <!-- Content Widget **************** -->
 
-  <Features2
-    title="Most used widgets"
-    subtitle="Provides frequently used components for building websites using Tailwind CSS"
-    tagline="Components"
+    <Content
+    isAfterContent
     items={[
       {
-        title: 'Headers',
-        description: "Ever tried driving without GPS? Boom! That's why websites need headers for direction.",
-        icon: 'flat-color-icons:template',
-      },
-      {
-        title: 'Heros',
+        title: 'Graviational Waves Workshop',
         description:
-          "Picture a superhero landing – epic, right? That's the job of a Hero section, making grand entrances!",
-        icon: 'flat-color-icons:gallery',
+          'In Collaboration with IUCAA Pune & LIGO India, we oraganized a Graviational Waves Workshop along with Celetic, IISER Tirupati',
       },
       {
-        title: 'Features',
+        title: 'Telescope Making Worksop🔭',
         description:
-          'Where websites strut their stuff and show off superpowers. No holding back on the bragging rights here!',
-        icon: 'flat-color-icons:approval',
+          'In Collaboration with Space India, we orgaized a Hands-on Telescope making workshop.',
       },
       {
-        title: 'Content',
+        title: 'Basic Astrophotography Session',
         description:
-          "Dive into the meat and potatoes of a site; without it, you'd just be window shopping. Content is king.",
-        icon: 'flat-color-icons:document',
-      },
-      {
-        title: 'Call-to-Action',
-        description:
-          'That enthusiastic friend who\'s always urging, "Do it! Do it!"? Yeah, that\'s this button nudging you towards adventure.',
-        icon: 'flat-color-icons:advertising',
-      },
-      {
-        title: 'Pricing',
-        description: 'Behold the dessert menu of the website world. Tempting choices await, can you resist?',
-        icon: 'flat-color-icons:currency-exchange',
-      },
-      {
-        title: 'Testimonial',
-        description: 'Step into the gossip corner! Here, other visitors spill the beans and share the juicy details.',
-        icon: 'flat-color-icons:voice-presentation',
-      },
-      {
-        title: 'Contact',
-        description:
-          'Like a digital mailbox, but faster! Drop a line, ask a question, or send a virtual high-five. Ding! Message in.',
-        icon: 'flat-color-icons:business-contact',
-      },
-      {
-        title: 'Footers',
-        description: "The footer's like the credits of a movie but sprinkled with easter eggs. Time to hunt!",
-        icon: 'flat-color-icons:database',
+          'We frequently organize basic pro-mode and lightroom editing workshop for our fellow mates✨',
       },
     ]}
+    image={{
+      src: Ligo_img,
+      alt: 'Blueprint Image',
+    }}
   >
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Features2>
+  <Fragment slot="content">
+    <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Workhop🚀</h3>
+    We have also organized many workshops with some of the reputed orgaization e.g. LIGO India, Space Chennai😎.
+  </Fragment>
+
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment>
+  </Content>
+
+    <!-- Content Widget **************** -->
+
+    <Content
+    isReversed
+    isAfterContent
+    items={[
+      {
+        title: 'Documentary cum Quiz 3.0',
+        description:
+          'We frequently organize Quizes, but with a veru different flavour and patter, to witness join us in our next session',
+      },
+      {
+        title: 'Knolwledge Quiz',
+        description: `To tackle different competitions, we also organize some tough and difficult quizes for selected team`,
+      },
+    ]}
+    image={{
+      src: Doc_quiz,
+      alt: 'Blueprint Image',
+    }}
+  >
+  <Fragment slot="content">
+    <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Quiz and Documentaries📖</h3>
+     We frequently organize Documentaries watching and Quiz sessions✨.
+  </Fragment>
+
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment>
+  </Content>
+
+      <!-- Content Widget **************** -->
+
+    <Content
+    isAfterContent
+      items={[
+      {
+        title: 'Hands-on Shows',
+        description:
+          "Last year with collaboration with IISER we organized a hands-on talk shows on data analysis and it's impotatnce in field of Astrophysics",
+      },
+      {
+        title: 'Theory Based Talk Shows',
+        description: 'We have organized with talk shows of various eminent scientist on their thoeries related to cosmos',
+      },
+    ]}
+    image={{
+      src:Talk_img,
+      alt: 'Blueprint Image',
+    }}
+  >
+  <Fragment slot="content">
+    <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Talk Shows🖊️</h3>
+     We frequently organize Talk for interacting with emminent scientist ang gain knowledge✨.
+  </Fragment>
+
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment>
+  </Content>
 
   <!-- HighlightedPosts Widget ******* -->
-
+<!-- 
   <BlogLatestPosts
     title="Find out more content in our Blog"
     information={`The blog is used to display AstroWind documentation.
                         Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
                         Astro is a very interesting technology. Thanks.
                 `}
-  />
+  /> -->
 
   <!-- Stats Widget ****************** -->
 
