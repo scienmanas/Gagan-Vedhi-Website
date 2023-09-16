@@ -6,7 +6,7 @@ Very little vanilla javascript is used only to provide basic functionality so th
 
 ### Project structure
 
-Inside this Repository, you'll see the following folders and files:
+Inside AstroWind template, you'll see the following folders and files:
 
 ```
 /
