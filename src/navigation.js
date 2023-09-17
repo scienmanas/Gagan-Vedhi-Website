@@ -154,42 +154,42 @@ export const footerData = {
     {
       title: 'Collaborations',
       links: [
-        { text: 'ICUAA Pune', href: 'https://www.iucaa.in/en/'},
+        { text: 'IUCAA Pune', href: 'https://www.iucaa.in/en/'},
         { text: 'Celestic, IISER Tirupati', href: 'https://www.instagram.com/celestic_iisertpt/' },
         { text: 'Space India', href: 'https://space-india.com/' },
         { text: 'Idea Square', href: 'https://www.linkedin.com/company/idea-squared'},
-        { text: 'Space technology & Aeronautical Rocketry (STAR)', href: 'https://www.starlabsurat.com/' },
+        { text: 'Space Technology & Aeronautical Rocketry (STAR)', href: 'https://www.starlabsurat.com/' },
       ],
     },
     {
       title: 'Past Events',
       links: [
-        { text: 'Star Gazing', href: '' },
-        { text: 'Regional Science Center Visit', href: '' },
-        { text: 'Aethereum 2022', href: '' },
-        { text: 'Gravitational Waves Workshop', href: '' },
-        { text: 'Astrophotography Workshop', href: '' },
+        { text: 'Star Gazing', href: '#' },
+        { text: 'Regional Science Center Visit', href: '#' },
+        { text: 'Aethereum 2022', href: '#' },
+        { text: 'Gravitational Waves Workshop', href: '#' },
+        { text: 'Astrophotography Workshop', href: '#' },
       ],
     },
     {
       title: 'Projects',
       links: [
         { text: 'ISS Overhead Discord Bot', href: 'https://github.com/astroclubiitt/ISS-Overhead-Checker' },
-        { text: 'Rocket Modelling', href: '' },
+        { text: 'Rocket Modelling', href: 'https://github.com/astroclubiitt/Rocket-Modelling' },
       ],
     },
     {
       title: 'Achievements',
       links: [
-        { text: 'Silver Medal - Cosmic Innovation Challenge', href: '' },
-        {text: 'Silver Medal, Inter IIT Tech Meet 10.0', href: '' },
+        { text: 'Silver Medal🥈 - Cosmic Innovation Challenge, Shaastra 2023', href: '#' },
+        {text: '14th Rank, Inter IIT Tech Meet 10.0 - ISRO Problem Statement', href: '#' },
       ]
     },
   ],
-  // secondaryLinks: [
-  //   { text: 'Terms', href: getPermalink('/terms') },
-  //   { text: 'Privacy Policy', href: getPermalink('/privacy') },
-  // ],
+  secondaryLinks: [
+    { text: 'Consitutuion', href: 'https://docs.google.com/document/d/1ek_Yr0NhK66p9L_JbXlCGWYDDn4dvJG8ZEHCEdhRtYg/edit?usp=sharing' },
+    { text: 'Institute Website', href: 'https://www.iittp.ac.in' },
+  ],
   socialLinks: [
     { ariaLabel: 'X', icon: 'tabler:brand-x-filled', href: 'https://twitter.com/astroclubiitt' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/astroclubiitt' },
