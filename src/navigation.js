@@ -78,41 +78,17 @@ export const headerData = {
           text : 'Completed Projects'
         }
       ]
-      // links: [
-      //   {
-      //     text: 'Lead Generation',
-      //     href: getPermalink('/landing/lead-generation'),
-      //   },
-      //   {
-      //     text: 'Long-form Sales',
-      //     href: getPermalink('/landing/sales'),
-      //   },
-      //   {
-      //     text: 'Click-Through',
-      //     href: getPermalink('/landing/click-through'),
-      //   },
-      //   {
-      //     text: 'Product Details (or Services)',
-      //     href: getPermalink('/landing/product'),
-      //   },
-      //   {
-      //     text: 'Coming Soon or Pre-Launch',
-      //     href: getPermalink('/landing/pre-launch'),
-      //   },
-      //   {
-      //     text: 'Subscription',
-      //     href: getPermalink('/landing/subscription'),
-      //   },
-      // ],
     },
     {
       text: 'Blog',
       links : [
         {
-          text : 'Space News'
+          text : 'Space News Letter',
+          href: getBlogPermalink(),
         },
         {
-          text : 'Tech News'
+          text : 'Tech News Letter',
+          href: getBlogPermalink(),
         }
       ]
       // links: [
@@ -145,6 +121,11 @@ export const headerData = {
     {
       text: 'Our Team',
       href: '#',
+    },
+    {
+      text: 'Contact Us',
+      href: getPermalink('#'),
+      // href: getPermalink('/contact'),
     },
   ],
 };
