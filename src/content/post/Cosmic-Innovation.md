@@ -2,7 +2,7 @@
 publishDate: 2023-09-19T00:33:00Z
 title: Insides from Cosmic Innovation Challenge Winners - Arpit & Manas
 excerpt: Read about the insides of cosmic innovation Challenge Winners of Space Sustainability Track.
-image: https://raw.githubusercontent.com/scienmanas/Gagan-Vedhi-Website/blog/src/content/images_posts/cosmic-innovation-challenge-space-sustainability-track.png
+image: https://raw.githubusercontent.com/scienmanas/Gagan-Vedhi-Website/main/src/content/images_posts/cosmic-innovation-challenge-space-sustainability-track.png
 tags:
   - cosmic innovation challenge
   - Shaastra 2023

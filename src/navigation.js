@@ -80,7 +80,7 @@ export const headerData = {
       ]
     },
     {
-      text: 'Gagan Vedhi Channel📺',
+      text: 'Gagan Vedhi T.V.📺',
       href: getBlogPermalink(),
         // {
           // text : '',

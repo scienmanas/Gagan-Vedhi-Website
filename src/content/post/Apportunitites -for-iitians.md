@@ -2,7 +2,7 @@
 publishDate: 2023-09-18T00:33:00Z
 title: Apportunities for IITians in field of Astronomy & Astrophysics
 excerpt: Exploring the Cosmos Uncover Your Future in Computational Astronomy and Astrophysics!
-image: https://raw.githubusercontent.com/scienmanas/Gagan-Vedhi-Website/blog/src/content/images_posts/opportunities-for-iitians.png
+image: https://raw.githubusercontent.com/scienmanas/Gagan-Vedhi-Website/main/src/content/images_posts/opportunities-for-iitians.png
 tags:
   - opportunities for iitians in astronomy
   - Inter iit tech meet
