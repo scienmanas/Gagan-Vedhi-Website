@@ -119,7 +119,7 @@ export const headerData = {
       href: '#',
     },
     {
-      text: 'Our Team',
+      text: 'Our Team✨',
       href: '#',
     },
     {
