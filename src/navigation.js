@@ -83,12 +83,12 @@ export const headerData = {
       text: 'Blog',
       links : [
         {
-          text : 'Space News Letter',
+          text : 'Tech News Letter',
           href: getBlogPermalink(),
         },
         {
-          text : 'Tech News Letter',
-          href: getBlogPermalink(),
+          text : 'Space News Letter',
+          // href: getBlogPermalink(),
         }
       ]
       // links: [
