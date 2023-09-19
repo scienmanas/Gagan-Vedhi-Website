@@ -29,7 +29,9 @@ export interface Post {
   tags?: Array<string>;
   /**  */
   author1?:string;
-  author2:string;
+  author2?:string;
+  author_1_photo?:string;
+  author_2_photo?:string;
 
   /**  */
   metadata?: MetaData;

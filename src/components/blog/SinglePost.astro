@@ -89,43 +89,49 @@ const { Content } = post;
       <SocialShare url={url} text={post.title} class="mt-5 sm:mt-1 align-middle text-gray-500 dark:text-slate-600" />
     </div>
     <!-- Author Section -->
-    <div class="flex justify-center">
-      <!-- First Author Section -->
-      <section class="py-8 sm:py-16 lg:py-20 mx-auto">
-        <div class="max-w-3xl mx-auto px-4 sm:px-6">
-          <div class="flex items-center">
-            <!-- Insert author avatar or image here -->
-            <div class="w-12 h-12 bg-gray-400 dark:bg-slate-700 rounded-full"></div>
-            <div class="ml-4">
-              <h2 class="text-2xl font-bold text-primary dark:text-blue-400">
-                {post.author1}
-              </h2>
-              <!-- You can customize the author's name styling above -->
-              <p class="text-gray-600 dark:text-slate-400">Author Bio or Description</p>
-              <!-- You can customize the author's bio styling above -->
-            </div>
-          </div>
+<!-- Author Section -->
+<!-- Author Section -->
+<div class="flex justify-center">
+  <!-- First Author Section -->
+  <section class="py-8 sm:py-16 lg:py-20 mx-auto">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      <div class="flex items-center">
+        <!-- Author 1's Avatar -->
+        <img src={post.author_1_photo} alt="Author 1" class="w-16 h-16 bg-gray-400 dark:bg-slate-700 rounded-full">
+        <div class="ml-4">
+          <!-- Author 1's Name -->
+          <h2 class="text-2xl font-bold text-primary dark:text-blue-400">
+            {post.author1}
+          </h2>
+          <!-- You can customize the author's name styling above -->
+          <p class="text-gray-600 dark:text-slate-400">Author Bio or Description</p>
+          <!-- You can customize the author's bio styling above -->
         </div>
-      </section>
-    
-      <!-- Second Author Section -->
-      <section class="py-8 sm:py-16 lg:py-20 mx-auto">
-        <div class="max-w-3xl mx-auto px-4 sm:px-6">
-          <div class="flex items-center">
-            <!-- Insert author avatar or image here -->
-            <div class="w-12 h-12 bg-gray-400 dark:bg-slate-700 rounded-full"></div>
-            <div class="ml-4">
-              <h2 class="text-2xl font-bold text-primary dark:text-blue-400">
-                {post.author2}
-              </h2>
-              <!-- You can customize the author's name styling above -->
-              <p class="text-gray-600 dark:text-slate-400">Author Bio or Description</p>
-              <!-- You can customize the author's bio styling above -->
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
     </div>
+  </section>
+
+  <!-- Second Author Section -->
+  <section class="py-8 sm:py-16 lg:py-20 mx-auto">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      <div class="flex items-center">
+        <!-- Author 2's Avatar -->
+        <img src={post.author_2_photo} alt="Author 2" class="w-16 h-16 bg-gray-400 dark:bg-slate-700 rounded-full">
+        <div class="ml-4">
+          <!-- Author 2's Name -->
+          <h2 class="text-2xl font-bold text-primary dark:text-blue-400">
+            {post.author2}
+          </h2>
+          <!-- You can customize the author's name styling above -->
+          <p class="text-gray-600 dark:text-slate-400">Author Bio or Description</p>
+          <!-- You can customize the author's bio styling above -->
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+
     
 </article>
 </section>

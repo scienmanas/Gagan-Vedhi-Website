@@ -27,4 +27,6 @@ collections:
       - { label: 'Publish Date', name: 'publishDate', widget: 'datetime', required: false }
       - { label: 'Author1', name: 'author2', widget: 'string' ,}
       - { label: 'Author2', name: 'author2', widget: 'string' ,}
+      - { label: 'Author_1_photo', name: 'author_1_photo', widget: 'string' ,}
+      - { label: 'Author_2_photo', name: 'author_2_photo', widget: 'string' ,}
       - { label: 'Content', name: 'body', widget: 'markdown' }

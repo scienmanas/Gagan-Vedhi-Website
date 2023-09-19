@@ -59,6 +59,8 @@ const postCollection = defineCollection({
     tags: z.array(z.string()).optional(),
     author1: z.string().optional(),
     author2: z.string().optional(),
+    author_1_photo: z.string().optional(),
+    author_2_photo: z.string().optional(),
 
     metadata: metadataDefinition(),
   }),
