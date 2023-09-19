@@ -4,6 +4,7 @@ import { Icon } from 'astro-icon/components';
 import Image from '~/components/common/Image.astro';
 import PostTags from '~/components/blog/Tags.astro';
 import SocialShare from '~/components/common/SocialShare.astro';
+// import Authors from './authors.astro';
 
 import { getPermalink } from '~/utils/permalinks';
 import { getFormattedDate } from '~/utils/utils';
@@ -88,19 +89,43 @@ const { Content } = post;
       <SocialShare url={url} text={post.title} class="mt-5 sm:mt-1 align-middle text-gray-500 dark:text-slate-600" />
     </div>
     <!-- Author Section -->
-<section class="py-8 sm:py-16 lg:py-20 mx-auto">
-  <div class="max-w-3xl mx-auto px-4 sm:px-6">
-    <div class="flex items-center">
-      <!-- Insert author avatar or image here -->fuck you
-      <div class="w-12 h-12 bg-gray-400 dark:bg-slate-700 rounded-full"></div>
-      <div class="ml-4">
-        <h2 class="text-2xl font-bold text-primary dark:text-blue-400">Author Name</h2>
-        {post.author}<!-- You can customize the author's name styling above -->
-        <p class="text-gray-600 dark:text-slate-400">Author Bio or Description</p>
-        <!-- You can customize the author's bio styling above -->Fucker Boy
-      </div>
+    <div class="flex justify-center">
+      <!-- First Author Section -->
+      <section class="py-8 sm:py-16 lg:py-20 mx-auto">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6">
+          <div class="flex items-center">
+            <!-- Insert author avatar or image here -->
+            <div class="w-12 h-12 bg-gray-400 dark:bg-slate-700 rounded-full"></div>
+            <div class="ml-4">
+              <h2 class="text-2xl font-bold text-primary dark:text-blue-400">
+                {post.author1}
+              </h2>
+              <!-- You can customize the author's name styling above -->
+              <p class="text-gray-600 dark:text-slate-400">Author Bio or Description</p>
+              <!-- You can customize the author's bio styling above -->
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <!-- Second Author Section -->
+      <section class="py-8 sm:py-16 lg:py-20 mx-auto">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6">
+          <div class="flex items-center">
+            <!-- Insert author avatar or image here -->
+            <div class="w-12 h-12 bg-gray-400 dark:bg-slate-700 rounded-full"></div>
+            <div class="ml-4">
+              <h2 class="text-2xl font-bold text-primary dark:text-blue-400">
+                {post.author2}
+              </h2>
+              <!-- You can customize the author's name styling above -->
+              <p class="text-gray-600 dark:text-slate-400">Author Bio or Description</p>
+              <!-- You can customize the author's bio styling above -->
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-  </div>
-</section>
-  </article>
+    
+</article>
 </section>

@@ -23,7 +23,8 @@ collections:
           collapsed: false,
           field: { label: 'Tag', name: 'tag', widget: 'string' },
         }
-      - { label: 'Image', name: 'image', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'string', }
       - { label: 'Publish Date', name: 'publishDate', widget: 'datetime', required: false }
-      - { label: 'Author', name: 'author', widget: 'string' }
+      - { label: 'Author1', name: 'author2', widget: 'string' ,}
+      - { label: 'Author2', name: 'author2', widget: 'string' ,}
       - { label: 'Content', name: 'body', widget: 'markdown' }

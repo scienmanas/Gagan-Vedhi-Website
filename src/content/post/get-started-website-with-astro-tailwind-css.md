@@ -7,7 +7,12 @@ category: Tutorials
 tags:
   - cosmic innovation challenge
   - Shaastra 2023
-author: Manas & Arpit
+author1: Manas
+author2: Arpit
+author_1_bio: 
+author_2_bio: 
+author_1_photo:
+author_2_photo: 
 metadata:
   canonical: https://astrowind.vercel.app/bsite-with-astro-tailwind-css
 ---
