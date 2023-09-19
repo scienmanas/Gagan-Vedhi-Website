@@ -11,8 +11,8 @@ author1: Manas
 author2: Arpit
 author_1_bio: 
 author_2_bio: 
-author_1_photo:
-author_2_photo: 
+author_1_photo: https://raw.githubusercontent.com/scienmanas/Gagan-Vedhi-Website/blog/src/content/images_posts/arpit.png
+author_2_photo: https://raw.githubusercontent.com/scienmanas/Gagan-Vedhi-Website/blog/src/content/author_images/arpit.png
 metadata:
   canonical: https://astrowind.vercel.app/bsite-with-astro-tailwind-css
 ---
