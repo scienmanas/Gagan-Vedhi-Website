@@ -28,7 +28,22 @@ export interface Post {
   /**  */
   tags?: Array<string>;
   /**  */
-  author?: string;
+  author1?:string;
+  author2?:string;
+  author3?:string;
+  author4?:string;
+  author_1_photo?:string;
+  author_2_photo?:string;
+  author_3_photo?:string;
+  author_4_photo?:string;
+  author_1_bio_designation?:string;
+  author_2_bio_designation?:string;
+  author_3_bio_designation?:string;
+  author_4_bio_designation?:string;
+  author_1_bio?:string;
+  author_2_bio?:string;
+  author_3_bio?:string;
+  author_4_bio?:string;
 
   /**  */
   metadata?: MetaData;

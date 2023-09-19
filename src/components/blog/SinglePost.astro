@@ -4,6 +4,7 @@ import { Icon } from 'astro-icon/components';
 import Image from '~/components/common/Image.astro';
 import PostTags from '~/components/blog/Tags.astro';
 import SocialShare from '~/components/common/SocialShare.astro';
+// import Authors from './authors.astro';
 
 import { getPermalink } from '~/utils/permalinks';
 import { getFormattedDate } from '~/utils/utils';
@@ -15,8 +16,30 @@ export interface Props {
   url: string | URL;
 }
 
+// const ok = ""
+
 const { post, url } = Astro.props;
 const { Content } = post;
+let author1_disp = '';
+let author2_disp = '';
+let author3_disp = '';
+let author4_disp = '';
+
+// console.log(post.author3);
+
+
+if(post.author1 == "none") {
+  author1_disp = 'display: none';
+}
+if(post.author2 == "none") {
+  author2_disp = 'display: none';
+}
+if(post.author3 == "none") {
+  author3_disp = 'display: none';
+}
+if(post.author4 == "none") {
+  author4_disp = 'display: none';
+}
 ---
 
 <section class="py-8 sm:py-16 lg:py-20 mx-auto">
@@ -87,5 +110,111 @@ const { Content } = post;
       <PostTags tags={post.tags} class="mr-5 rtl:mr-0 rtl:ml-5" />
       <SocialShare url={url} text={post.title} class="mt-5 sm:mt-1 align-middle text-gray-500 dark:text-slate-600" />
     </div>
-  </article>
+    <!-- Author Section -->
+<!-- Author Section -->
+<!-- Author Section -->
+<!-- Author Section -->
+<!-- Author Section -->
+<!-- Author Section -->
+<!-- Author Section -->
+<!-- Author Section -->
+<div class="flex flex-col sm:flex-row justify-center space-x-4">
+  <!-- Author 1 Section -->
+  <div class="py-8 sm:py-16 lg:py-20" style={author1_disp}>
+    <div class="max-w-lg mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-lg transform hover:shadow-xl transition-transform duration-300">
+      <div class="p-6">
+        <div class="flex justify-center items-center mb-4">
+          <!-- Author 1's Avatar -->
+          <div class="w-20 h-20 overflow-hidden rounded-full flex-shrink-0">
+            <img src={post.author_1_photo} alt="Author 1" class="object-cover w-full h-full">
+          </div>
+        </div>
+        <!-- Author 1's Name -->
+        <h2 class="text-2xl font-bold text-primary dark:text-blue-400 text-center">
+          {post.author1}
+        </h2>
+        <!-- Author 1's Bio Designation -->
+        <p class="text-gray-600 dark:text-slate-400 text-center mt-2">{post.author_1_bio_designation}</p>
+        <!-- Author 1's Bio Content -->
+        {post.author_1_bio}
+      </div>
+    </div>
+  </div>
+
+  <!-- Author 2 Section -->
+  <div class="py-8 sm:py-16 lg:py-20" style={author2_disp}>
+    <div class="max-w-lg mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-lg transform hover:shadow-xl transition-transform duration-300">
+      <div class="p-6">
+        <div class="flex justify-center items-center mb-4">
+          <!-- Author 2's Avatar -->
+          <div class="w-20 h-20 overflow-hidden rounded-full flex-shrink-0">
+            <img src={post.author_2_photo} alt="Author 2" class="object-cover w-full h-full">
+          </div>
+        </div>
+        <!-- Author 2's Name -->
+        <h2 class="text-2xl font-bold text-primary dark:text-blue-400 text-center">
+          {post.author2}
+        </h2>
+        <!-- Author 2's Bio Designation -->
+        <p class="text-gray-600 dark:text-slate-400 text-center mt-2">{post.author_2_bio_designation}</p>
+        <!-- Author 2's Bio Content -->
+        {post.author_2_bio} 
+      </div>
+    </div>
+  </div>
+
+  <!-- Author 3 Section -->
+  <div class="py-8 sm:py-16 lg:py-20" style={author3_disp}>
+    <div class="max-w-lg mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-lg transform hover:shadow-xl transition-transform duration-300">
+      <div class="p-6">
+        <div class="flex justify-center items-center mb-4">
+          <!-- Author 3's Avatar -->
+          <div class="w-20 h-20 overflow-hidden rounded-full flex-shrink-0">
+            <img src={post.author_3_photo} alt="Author 3" class="object-cover w-full h-full">
+          </div>
+        </div>
+        <!-- Author 3's Name -->
+        <h2 class="text-2xl font-bold text-primary dark:text-blue-400 text-center">
+          {post.author3}
+        </h2>
+        <!-- Author 3's Bio Designation -->
+        <p class="text-gray-600 dark:text-slate-400 text-center mt-2">{post.author_3_bio_designation}</p>
+        <!-- Author 3's Bio Content -->
+        {post.author_3_bio}
+      </div>
+    </div>
+  </div>
+
+  <!-- Author 4 Section -->
+  <div class="py-8 sm:py-16 lg:py-20" style={author4_disp}>
+    <div class="max-w-lg mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-lg transform hover:shadow-xl transition-transform duration-300">
+      <div class="p-6">
+        <div class="flex justify-center items-center mb-4">
+          <!-- Author 4's Avatar -->
+          <div class="w-20 h-20 overflow-hidden rounded-full flex-shrink-0">
+            <img src={post.author_4_photo} alt="Author 4" class="object-cover w-full h-full">
+          </div>
+        </div>
+        <!-- Author 4's Name -->
+        <h2 class="text-2xl font-bold text-primary dark:text-blue-400 text-center">
+          {post.author4}
+        </h2>
+        <!-- Author 4's Bio Designation -->
+        <p class="text-gray-600 dark:text-slate-400 text-center mt-2">{post.author_4_bio_designation}</p>
+        <!-- Author 4's Bio Content -->
+        {post.author_4_bio}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+    
+</article>
 </section>

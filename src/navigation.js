@@ -80,17 +80,17 @@ export const headerData = {
       ]
     },
     {
-      text: 'Blog',
-      links : [
-        {
-          text : 'Space News Letter',
+      text: 'Gagan Vedhi T.V.📺',
+      href: getBlogPermalink(),
+        // {
+          // text : '',
+          
+        // },
+        
+          // text : 'Space News Letter',
           // href: getBlogPermalink(),
-        },
-        {
-          text : 'Tech News Letter',
-          // href: getBlogPermalink(),
-        }
-      ]
+        
+      // ]
       // links: [
       //   {
       //     text: 'Blog List',
@@ -162,7 +162,7 @@ export const footerData = {
     {
       title: 'Achievements',
       links: [
-        { text: 'Silver Medal🥈 - Cosmic Innovation Challenge, Shaastra 2023', href: '#' },
+        { text: 'Silver Medal🥈 - Cosmic Innovation Challenge, Shaastra 2023', href: 'https://www.gaganvedhi.tech/cosmic-innovation'},
         {text: '14th Rank, Inter IIT Tech Meet 10.0 - ISRO Problem Statement', href: '#' },
       ]
     },

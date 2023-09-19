@@ -23,7 +23,22 @@ collections:
           collapsed: false,
           field: { label: 'Tag', name: 'tag', widget: 'string' },
         }
-      - { label: 'Image', name: 'image', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'string', }
       - { label: 'Publish Date', name: 'publishDate', widget: 'datetime', required: false }
-      - { label: 'Author', name: 'author', widget: 'string' }
+      - { label: 'Author1', name: 'author2', widget: 'string' ,}
+      - { label: 'Author2', name: 'author2', widget: 'string' ,}
+      - { label: 'Author3', name: 'author3', widget: 'string' ,}
+      - { label: 'Author4', name: 'author4', widget: 'string' ,}
+      - { label: 'Author_1_photo', name: 'author_1_photo', widget: 'string' ,}
+      - { label: 'Author_2_photo', name: 'author_2_photo', widget: 'string' ,}
+      - { label: 'Author_3_photo', name: 'author_2_photo', widget: 'string' ,}
+      - { label: 'Author_4_photo', name: 'author_2_photo', widget: 'string' ,}
+      - { label: 'Author_1_bio', name: 'author_1_bio', widget: 'string'}
+      - { label: 'Author_2_bio', name: 'author_2_bio', widget: 'string'} 
+      - { label: 'Author_3_bio', name: 'author_2_bio', widget: 'string'} 
+      - { label: 'Author_4_bio', name: 'author_2_bio', widget: 'string'} 
+      - { label: 'Author_1_bio_designation', name: 'author_1_bio_designation', widget: 'string'}
+      - { label: 'Author_2_bio_designation', name: 'author_2_bio_designation', widget: 'string'}
+      - { label: 'Author_3_bio_designation', name: 'author_3_bio_designation', widget: 'string'}
+      - { label: 'Author_4_bio_designation', name: 'author_4_bio_designation', widget: 'string'}
       - { label: 'Content', name: 'body', widget: 'markdown' }
