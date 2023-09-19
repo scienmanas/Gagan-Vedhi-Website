@@ -82,7 +82,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     author1: author1,
     author2: author2,
     author_1_photo:author_1_photo,
-    author_2_photo:author_1_photo,
+    author_2_photo:author_2_photo,
 
 
     draft: draft,
