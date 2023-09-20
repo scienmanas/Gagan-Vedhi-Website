@@ -11,7 +11,7 @@ author2: none
 author3: none
 author4: none
 author_1_bio_designation: Gagan Vedhi, Coordinator
-author_1_bio: I am a versatile writer with a penchant for exploring various genres, drawing inspiration from a diverse range of books, including sci-fi, romantic comedy, and thrilling crime novels by acclaimed author Chetan Bhagat. His fascination with astronomy was ignited in his childhood, gazing at the stars, and fueled further by a dream of journeying through a wormhole. Manas brings a touch of humor to his writing, adding a delightful and entertaining element to his work. With a unique blend of creativity and a lighthearted approach, he invites readers on imaginative journeys through his words.
+author_1_bio: Manas is a versatile writer with a penchant for exploring various genres, drawing inspiration from a diverse range of books, including sci-fi, romantic comedy, and thrilling crime novels by acclaimed author Chetan Bhagat. His fascination with astronomy was ignited in his childhood, gazing at the stars, and fueled further by a dream of journeying through a wormhole. Manas brings a touch of humor to his writing, adding a delightful and entertaining element to his work. With a unique blend of creativity and a lighthearted approach, he invites readers on imaginative journeys through his words.
 author_1_photo: https://raw.githubusercontent.com/scienmanas/Gagan-Vedhi-Website/blog/src/content/author_images/manas.png
 ---
 # Career Opportunities in Astronomy for IITians
