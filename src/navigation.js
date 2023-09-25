@@ -120,7 +120,7 @@ export const headerData = {
     },
     {
       text: 'Our Team✨',
-      href: '#',
+      href: getPermalink('/team'),
     },
     {
       text: 'Contact Us',
