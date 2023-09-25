@@ -128,5 +128,9 @@ body.dark-mode {
       color: #000; /* Text color to match the glow color for dark backgrounds */
     }
   }
-  
+
+.imgBx {
+    height: auto;
+    width: auto;
+}
   
