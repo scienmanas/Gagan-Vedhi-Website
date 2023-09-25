@@ -122,11 +122,6 @@ export const headerData = {
       text: 'Our Team✨',
       href: getPermalink('/team'),
     },
-    {
-      text: 'Contact Us',
-      href: getPermalink('#'),
-      // href: getPermalink('/contact'),
-    },
   ],
 };
 
