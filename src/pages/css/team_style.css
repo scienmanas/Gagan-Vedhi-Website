@@ -133,4 +133,8 @@ body.dark-mode {
     height: auto;
     width: auto;
 }
+
+.bg-custom {
+    background-color: #000;
+}
   
