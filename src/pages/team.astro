@@ -1,130 +1,146 @@
 ---
-import Layout from "~/layouts/PageLayout.astro";
-import "~/pages/css/team_style.css"
-import "~/assets/styles/tailwind.css"
+import Layout from '~/layouts/PageLayout.astro';
+import '~/pages/css/team_style.css';
+import '~/assets/styles/tailwind.css';
 
 const metadata = {
-    title: 'Our Team',
+  title: 'Our Team',
 };
 ---
 
 <Layout>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
-    />
-    <div class="container ">
-        <div class="container">
-            <div class="container">
-              <h2 style="font-size: 3.5rem; font-weight: bold;">Faculty Advisor</h2>
-            </div>
-            <div class="card glow" style="background-color: black;">
-              <div class="imgBx" style="height: 450px; width: 300px;">
-                <img
-                  src="https://raw.githubusercontent.com/scienmanas/Gagan-Vedhi-Website/Team_tab/src/pages/images/aniket%20sir.png"
-                  alt="faculty advisor photo"
-                />
-              </div>
-              <div class="content">
-                <div class="contentBx">
-                  <h3>Aniket Joglekar <br /><span>Faculty Advisor</span></h3>
-                </div>
-                <ul class="sci">
-                  <li style="--i: 1">
-                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                  </li>
-                  <li style="--i: 2">
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous"
+  />
+  <div class="container">
+    <div class="container">
+      <div class="container">
+        <h2 style="font-size: 3.5rem; font-weight: bold;">Faculty Advisor</h2>
+      </div>
+      <div class="card glow" style="background-color: black;">
+        <div class="imgBx" style="height: 450px; width: 300px;">
+          <img
+            src="https://raw.githubusercontent.com/scienmanas/Gagan-Vedhi-Website/Team_tab/src/pages/images/aniket%20sir.png"
+            alt="faculty advisor photo"
+          />
+        </div>
+        <div class="content">
+          <div class="contentBx">
+            <h3>Aniket Joglekar <br /><span>Faculty Advisor</span></h3>
+          </div>
+          <ul class="sci">
+            <li style="--i: 1">
+              <a href="https://iittp.ac.in/dr-aniket-joglekar"><i class="fa fa-link" aria-hidden="true"></i></a>
+            </li>
+            <!-- <li style="--i: 2">
                     <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
                   </li>
                   <li style="--i: 3">
                     <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          
-          
-        <div class="container">
-            <div class="container">
-                <h2 style="font-size: 3.5rem; font-weight: bold;">Student Team</h2></div>
-            </div>
-            <div class="card glow">
-                <div class="imgBx">
-                  <img
-                    src="https://images.pexels.com/photos/3379933/pexels-photo-3379933.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-                    alt=""
-                  />
-                </div>
-                <div class="content ">
-                  <div class="contentBx">
-                    <h3>Manas Poddar <br /><span>Club Head</span></h3>
-                  </div>
-                  <ul class="sci">
-                    <li style="--i: 1">
-                      <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                    </li>
-                    <li style="--i: 2">
-                      <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
-                    </li>
-                    <li style="--i: 3">
-                      <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="card glow">
-                  <div class="imgBx">
-                    <img
-                      src="https://images.pexels.com/photos/3379933/pexels-photo-3379933.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-                      alt=""
-                    />
-                  </div>
-                  <div class="content ">
-                    <div class="contentBx">
-                      <h3>Pranav Sutar<br /><span>Student Mentor</span></h3>
-                    </div>
-                    <ul class="sci">
-                      <li style="--i: 1">
-                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                      </li>
-                      <li style="--i: 2">
-                        <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
-                      </li>
-                      <li style="--i: 3">
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="card glow">
-                  <div class="imgBx">
-                    <img
-                      src="https://images.pexels.com/photos/3379933/pexels-photo-3379933.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-                      alt=""
-                    />
-                  </div>
-                  <div class="content ">
-                    <div class="contentBx">
-                      <h3>Rama <br /><span>Social Media Team Head</span></h3>
-                    </div>
-                    <ul class="sci">
-                      <li style="--i: 1">
-                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                      </li>
-                      <li style="--i: 2">
-                        <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
-                      </li>
-                      <li style="--i: 3">
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+                  </li> -->
+          </ul>
         </div>
-       
+      </div>
     </div>
-     
+
+    <div class="container">
+      <div class="container">
+        <h2 style="font-size: 3.5rem; font-weight: bold;">Student Team</h2>
+      </div>
+    </div>
+    <div class="card glow">
+      <div class="imgBx">
+        <img
+          src="https://images.pexels.com/photos/3379933/pexels-photo-3379933.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+          alt=""
+        />
+      </div>
+      <div class="content">
+        <div class="contentBx">
+          <h3>Manas Poddar <br /><span>Club Head</span></h3>
+        </div>
+        <ul class="sci">
+          <li style="--i: 1">
+            <a href="https://www.instagram.com/scienmanas/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </li>
+          <li style="--i: 2">
+            <a href="https://github.com/scienmanas"><i class="fa fa-github" aria-hidden="true"></i></a>
+          </li>
+          <li style="--i: 3">
+            <a href="https://www.linkedin.com/in/manas-poddar-5a0098227/"
+              ><i class="fa fa-linkedin" aria-hidden="true"></i></a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="card glow">
+      <div class="imgBx">
+        <img
+          src="https://raw.githubusercontent.com/scienmanas/Gagan-Vedhi-Website/Team_tab/src/pages/images/year_2k23_24/pranav_sutar.png"
+          alt=""
+        />
+      </div>
+      <div class="content">
+        <div class="contentBx">
+          <h3>Pranav Sutar<br /><span>Student Mentor</span></h3>
+        </div>
+        <ul class="sci">
+          <li style="--i: 1">
+            <a href="https://www.instagram.com/pranavsutar_/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </li>
+          <li style="--i: 2">
+            <a href="https://github.com/pranavsutar"><i class="fa fa-github" aria-hidden="true"></i></a>
+          </li>
+          <li style="--i: 3">
+            <a href="https://www.linkedin.com/in/pranav-sutar/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="card glow">
+      <div class="imgBx">
+        <img
+          src="https://images.pexels.com/photos/3379933/pexels-photo-3379933.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+          alt=""
+        />
+      </div>
+      <div class="content">
+        <div class="contentBx">
+          <h3>Rama <br /><span>Social Media Team Head</span></h3>
+        </div>
+        <ul class="sci">
+          <li style="--i: 1">
+            <a href="https://www.instagram.com/nameis_rama/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </li>
+          <!-- <li style="--i: 2">
+                        <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                      </li> -->
+          <li style="--i: 3">
+            <a href="https://www.linkedin.com/in/nameisrama/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="container">
+      <h2 style="font-size: 3.5rem; font-weight: bold;">Core Team</h2>
+    </div>
+    <div class="container">
+      <ol>
+      <li style="font-size: 1.5rem; font-weight: bold;">Faculty Advisor
+      </li>
+      <li style="font-size: 3.5rem; font-weight: bold;">Faculty Advisor
+      </li>
+      <li style="font-size: 3.5rem; font-weight: bold;">Faculty Advisor
+      </li>
+      <li style="font-size: 3.5rem; font-weight: bold;">Faculty Advisor
+      </li>
+    </ol>
+    </div>
+  </div>
 </Layout>
