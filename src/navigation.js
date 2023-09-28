@@ -120,12 +120,7 @@ export const headerData = {
     },
     {
       text: 'Our Team✨',
-      href: '#',
-    },
-    {
-      text: 'Contact Us',
-      href: getPermalink('#'),
-      // href: getPermalink('/contact'),
+      href: getPermalink('/team'),
     },
   ],
 };
@@ -179,9 +174,10 @@ export const footerData = {
     { ariaLabel: 'Github', icon: 'tabler:brand-github-filled', href: 'https://github.com/astroclubiitt' },
     { ariaLabel: 'Linkedin', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/company/astroclubiitt' },
     { ariaLabel: 'Mail', icon: 'tabler:mail-filled', href: 'https://mail.google.com/mail/?view=cm&fs=1&to=astronomyclub@iittp.ac.in' },
+    { ariaLabel: 'Youtube', icon: 'tabler:brand-youtube-filled', href: 'https://www.youtube.com/channel/UCgSj3R5pqn1PMkU3pON_3pw'},
   ],
   footNote: `
     <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm bg]">&#169; </span>
-    Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://github.com/scienmanas"> Manas</a> · Gagan Vedhi · All rights reserved.
+    Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://github.com/scienmanas"> Manas</a> with 💖 · Gagan Vedhi · All rights reserved.
   `,
 };
