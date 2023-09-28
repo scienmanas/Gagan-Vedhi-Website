@@ -227,33 +227,6 @@ a{
     width: 100%;
 }
 
-.fa-check-circle{
-    color: #17b667;
-}
-
-/* creating heart */
- .heart{
-    color: rgba(155,155,155);
-}
-.heart::before{
-    content: '\f004';
-    font-family: fontawesome;
-    line-height: 30px;
-    cursor: pointer;
-    z-index: 1;
-    transition: all 0.3s;
-}
-.box .heart-btn:checked ~ .heart::before{
-    color:#e41934
-}
-.heart-btn{
-    position: absolute;
-    top: 25px;
-    right: 20px;
-    padding: 1rem;
-    display: none;
-}
-
 
 .content img{
     width: 90px;
@@ -284,28 +257,6 @@ a{
     text-decoration: underline;
 }
 
-.btn{
-    margin-top: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-.btn a i{
-    margin-right: 9px;
-}
-.btn a{
-    border-radius: 20px;
-    color: #8b8b8b;
-    padding: 8px 20px;
-    font-size: 0.9rem;
-}
-.btn a:hover{
-    color: #fff;
-    box-shadow: 2px 5px 15px rgba(80,123,252,0.05);
-    background-color: #507bfc;
-    transition: all ease 0.5s;
-}
 
 .height-custom{
     height: 15rem;
